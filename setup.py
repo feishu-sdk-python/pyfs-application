@@ -9,7 +9,7 @@ version = '1.0.1'
 setup(
     name='pyfs-application',
     version=version,
-    keywords='Feishu Application Code MarketCode',
+    keywords='Feishu Application',
     description='Feishu Application Module for Python.',
     long_description=open('README.rst').read(),
 
@@ -20,7 +20,7 @@ setup(
 
     packages=['pyfs_application'],
     py_modules=[],
-    install_requires=['pyfs-auth'],
+    install_requires=['pyfs-auth>=1.0.3'],
 
     classifiers=[
         "License :: OSI Approved :: BSD License",
